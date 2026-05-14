@@ -10,5 +10,5 @@ jupyter>=1.0
 jupyterlab>=4.0
 ipykernel>=6.0
 
-# Jupyter Book (for building the site)
-jupyter-book>=1.0
+# Jupyter Book
+jupyter-book<1
