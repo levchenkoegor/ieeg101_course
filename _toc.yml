@@ -14,9 +14,11 @@ parts:
 
   - caption: iEEG Fundamentals
     chapters:
-      - file: content/ieeg_chapter1
-      - file: content/ieeg_chapter2
-      - file: content/ieeg_chapter3
+      - file: content/Week1_introduction
+      - file: content/Week2_artifact_rejection
+      - file: content/Week3_electrode_localisation
+      - file: content/Week4_sleep_oscillations
+
 
   # - caption: Sleep analysis
   #   chapters:
