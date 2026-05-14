@@ -1,0 +1,14 @@
+# Core analysis
+numpy>=1.24
+scipy>=1.11
+matplotlib>=3.7
+pandas>=2.0
+mne>=1.6
+
+# Jupyter
+jupyter>=1.0
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# Jupyter Book (for building the site)
+jupyter-book>=1.0

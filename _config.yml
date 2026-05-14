@@ -1,0 +1,65 @@
+#######################################################################################
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title                 : iEEG Online Course
+author                : Your Name
+copyright             : "2026"
+# logo                : assets/logo.png   # uncomment and add image to enable a logo
+
+# Patterns to skip when building the book
+exclude_patterns      : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints", ".github"]
+
+# Force re-execution of notebooks on each build (off = use cached outputs)
+execute:
+  execute_notebooks   : "off"   # options: "auto", "force", "cache", "off"
+  timeout             : 120     # seconds per cell before giving up
+
+#######################################################################################
+# Parse and render settings
+
+parse:
+  myst_enable_extensions:
+    - colon_fence       # ::: syntax for admonitions
+    - dollarmath        # $...$ and $$...$$ for LaTeX math
+    - html_image        # raw HTML <img> tags in Markdown
+    - linkify           # auto-link URLs
+  myst_url_schemes      : [mailto, http, https]
+  myst_dmath_double_inline: true
+
+#######################################################################################
+# HTML-specific settings
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+
+html:
+  use_issues_button     : true       # adds "open issue" button
+  use_repository_button : true       # adds "source" button
+  use_edit_page_button  : true       # adds "suggest edit" button
+  home_page_in_navbar   : false
+  favicon               : ""         # path to favicon (optional)
+  comments:
+    hypothesis          : false      # set true to enable Hypothesis annotations
+    utterances:
+      repo              : "https://github.com/levchenkoegor/ieeg101_course"
+
+#######################################################################################
+# Launch button settings (Binder / Colab)
+
+launch_buttons:
+  notebook_interface    : "jupyterlab"
+  # binderhub_url       : "https://mybinder.org"   # uncomment to add Binder button
+  colab_url             : "https://colab.research.google.com"  # adds Open in Colab button
+
+repository:
+  url                   : https://github.com/levchenkoegor/ieeg101_course
+  path_to_book          : ""          # leave empty if book is at repo root
+  branch                : main
+
+#######################################################################################
+# Sphinx settings
+
+sphinx:
+  extra_extensions      : []
+  config:
+    html_show_copyright : true
+    # bibtex_bibfiles   : ["references.bib"]   # uncomment + pip install sphinxcontrib-bibtex

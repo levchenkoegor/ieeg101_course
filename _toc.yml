@@ -1,0 +1,26 @@
+format: jb-book
+root: intro
+
+parts:
+
+  - caption: Course Overview
+    chapters:
+      - file: content/about
+
+  - caption: Getting Started
+    chapters:
+      - file: content/setup
+      - file: content/data
+
+  - caption: iEEG Fundamentals
+    chapters:
+      - file: content/ieeg_chapter1
+      - file: content/ieeg_chapter2
+      - file: content/ieeg_chapter3
+
+  - caption: Sleep analysis
+    chapters:
+      - file: content/ieeg_chapter1
+      - file: content/ieeg_chapter2
+
+
