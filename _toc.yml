@@ -18,9 +18,9 @@ parts:
       - file: content/ieeg_chapter2
       - file: content/ieeg_chapter3
 
-  - caption: Sleep analysis
-    chapters:
-      - file: content/ieeg_chapter1
-      - file: content/ieeg_chapter2
+  # - caption: Sleep analysis
+  #   chapters:
+  #     - file: content/ieeg_chapter1
+  #     - file: content/ieeg_chapter2
 
 
