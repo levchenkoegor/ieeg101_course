@@ -1,0 +1,18 @@
+/* ── Content width: give the main text more room ── */
+.bd-page-width {
+    max-width: 1400px;
+}
+
+.bd-content .bd-article-container {
+    max-width: 900px;
+}
+
+/* ── Font size: slightly smaller to match naturalistic-data.org ── */
+body {
+    font-size: 15px;
+}
+
+/* Keep code blocks readable at a slightly smaller size */
+pre, code {
+    font-size: 0.85em;
+}
