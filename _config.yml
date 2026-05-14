@@ -32,6 +32,8 @@ parse:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 
 html:
+  extra_css:
+    - _static/custom.css
   use_issues_button     : true       # adds "open issue" button
   use_repository_button : true       # adds "source" button
   use_edit_page_button  : true       # adds "suggest edit" button
