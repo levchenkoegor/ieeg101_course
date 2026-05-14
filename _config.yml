@@ -53,7 +53,7 @@ launch_buttons:
 repository:
   url                   : https://github.com/levchenkoegor/ieeg101_course
   path_to_book          : ""          # leave empty if book is at repo root
-  branch                : main
+  branch                : master
 
 #######################################################################################
 # Sphinx settings
