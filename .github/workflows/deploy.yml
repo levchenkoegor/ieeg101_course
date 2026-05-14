@@ -33,9 +33,9 @@ jobs:
       - name: Build the book
         run: jupyter-book build .
 
-      # Only deploy on pushes to main (not on PRs)
+      # Only deploy on pushes to master (not on PRs)
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
